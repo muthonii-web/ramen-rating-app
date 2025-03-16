@@ -11,9 +11,11 @@ Rates and review different ramen dishes.
 Search ramen by name, brand, restaurants & images.
 ## Languages
 HTML, CSS, JavaScript.
-##contacts
+## contacts
+
 Gmail;kinyanjuipauline69@gmail.com
-##licence
+## licence
+
 MIT License
 
 Copyright (c) 2025
