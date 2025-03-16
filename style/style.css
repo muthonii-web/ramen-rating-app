@@ -6,85 +6,85 @@ body {
   background-color: aliceblue;
 }
 
-h1{
-    background-color: black;
-    color: white;
-    padding: 15px 0;
-    font-size: 25px;
+h1 {
+  background-color: black;
+  color: white;
+  padding: 15px 0;
+  font-size: 25px;
 }
 .menu-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 15px;
-    overflow-x: auto;
-    background-color: antiquewhite;
-    border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+  overflow-x: auto;
+  background-color: antiquewhite;
+  border-bottom: 2px solid black;
 }
-.menu-container img{
-    width: 80px;
-    height: 87px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 0.2s;
+.menu-container img {
+  width: 80px;
+  height: 87px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
 }
-.menu-container img:hover{
-    transform: scale(1,1);
- }
-#rame-detail{
-    margin-top: 20px;
-    padding: 20px;
-    background-color: aliceblue;
-    border: 2px solid black;
-    display: inline-block;
-    text-align: left;
+.menu-container img:hover {
+  transform: scale(1, 1);
 }
-
-#ramen-detail img{
-    width: 300px;
-    height: auto;
-object-fit: cover;
-}
-form{
-    background-color: beige;
-    padding: 20px;
-    width: 50%;
-    margin: 20px auto;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    text-align: left;
-}
-form label{
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: black;
-    display: block;
-    text-align: left;
+#ramen-detail {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  display: inline-block;
+  text-align: left;
 }
 
-form input{
-    padding: 8px;
-    margin-top: 5px;   
-border: 1px solid black;
-border-radius: 4px;
-      width: 100px;
-} 
+#ramen-detail img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+}
 
-form button{
-    padding: 10px;
-    margin-top: 15px;
-    background-color: black;
-    color: azure;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
+form label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: black;
+  display: block;
+  text-align: left;
+}
 
+form input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100%;
+}
+
+form button {
+  padding: 10px;
+  margin-top: 15px;
+  background-color: black;
+  color: azure;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 form button:hover {
-    background-color: blanchedalmond;
-    color: white;
+  background-color: rgb(81, 52, 9);
+  color: white;
 }
